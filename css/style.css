@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+  --dark-color: #002240;
+  --light-color: #f4f4f4;
+}
+.card-content {
+  margin: 20px 30px;
+}
+
+.footer .social a {
+  margin: 0 10px;
+}
+.bg-dark {
+  background-color: var(--dark-color) !important;
+  color: #fff;
+}
+.bg-light {
+  background-color: var(--light-color) !important;
+  color: #333;
+}
+.bg-dark a {
+  color: #fff;
+}
+
+.container-footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.py-5 {
+  padding: 64px 0;
+}
+
+ul {
+  list-style-type: none;
+}
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.card-content {
+  border-radius: 25px;
+}
+
+.card-content img {
+  border-radius: 50%;
+  border: 5px solid #f7f7f7;
+}
+
+.card-title,
+.card-text {
+  text-align: center !important;
+  margin: 6px !important;
+}
+
+.card-section {
+  background-color: #f4f4f4;
+}
+
+button {
+  text-align: center;
+}
+
+.card-text a {
+  color: black !important;
+  border-bottom: 1px solid black !important;
+  text-decoration: none !important;
+}
+
+.card-text a:hover {
+  border-bottom: none !important;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar-nav {
+  margin-left: auto !important;
+}
+
+.social-icon .facebook-icon {
+  color: #4272b9;
+  margin-right: 8px;
+}
+
+.social-icon .linedin-icon {
+  color: #1087c9;
+}
+
+.social-icon .twitter-icon {
+  color: #65ccef;
+  margin-right: 8px;
+}
+
+.social-icon {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 22px;
+}
