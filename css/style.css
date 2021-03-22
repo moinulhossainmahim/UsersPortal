@@ -3,10 +3,6 @@
   --dark-color: #002240;
   --light-color: #f4f4f4;
 }
-.card-content {
-  margin: 20px 30px;
-}
-
 .footer .social a {
   margin: 0 10px;
 }
@@ -22,28 +18,6 @@
   color: #fff;
 }
 
-.container-footer {
-  max-width: 1100px;
-  margin: 0 auto;
-  overflow: auto;
-  padding: 0 40px;
-}
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-.grid-3 {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.py-5 {
-  padding: 64px 0;
-}
-
 ul {
   list-style-type: none;
 }
@@ -55,18 +29,34 @@ body {
   border-radius: 25px;
 }
 
+.single-card-content {
+  margin: auto;
+  width: 22rem;
+}
+
 .card-content img {
   border-radius: 50%;
 }
 
+.card-title {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #000000;
+}
+
 .card-title,
 .card-text {
-  text-align: center !important;
-  margin: 6px !important;
+  text-align: center;
+  margin: 10px;
 }
 
 .card-section {
   background-color: #f4f4f4;
+  overflow: hidden;
 }
 
 button {
@@ -83,31 +73,14 @@ button {
   border-bottom: none !important;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .navbar-nav {
   margin-left: auto !important;
 }
 
-.social-icon .facebook-icon {
-  color: #4272b9;
-  margin-right: 8px;
-}
-
-.social-icon .linedin-icon {
-  color: #1087c9;
-}
-
-.social-icon .twitter-icon {
-  color: #65ccef;
-  margin-right: 8px;
-}
-
-.social-icon {
-  text-align: center;
-  margin-top: 15px;
-  font-size: 22px;
+/* Media Queries */
+@media (max-width: 586px) {
+  .grid-3 {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
 }
